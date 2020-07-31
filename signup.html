@@ -45,17 +45,12 @@
         
         <!--sign up page for the website-->
         
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-4 col-xs-offset-4">
-                    <div class="panels">
-                    <div class="panel panel-primary" >
-                        <div class="panel-heading">
-                            <h4>SIGN UP</h4>
-                        </div>
-                        <div class="panel-body">
-                            
-                        <form method="POST" action="signup_script.php">
+         <div class="container-fluid">
+            <div class="row" >
+                <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <form class="form-container" >
+                            <h3 class="text-center">SIGN UP</h3>
                             <div class="form-group">
                                 <input class="form-control" placeholder="Name" name="name"  required = "true" pattern="^[A-Za-z\s]{1,}[\.]{0,1}[A-Za-z\s]{0,}$">
                             </div>
@@ -70,17 +65,9 @@
                             </div>
                             <button type="submit" name="submit" class="btn btn-primary btn-block">Submit</button>
                         </form>
-                        </div>
-                        
-                        <div class="panel-footer">
-                            <p> Have an account? <a href="login.html">Login</a></p>
-                        </div>
                     </div>
-                </div>
-              </div>
-                <div id="image">
-                </div>
-           </div>
+                <div class="col-md-4"></div>
+            </div>
         </div>
         
     </body>
